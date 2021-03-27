@@ -57,6 +57,7 @@ metadata:
     time: '2021-03-27T03:10:12Z' 
   name: survey-server
   namespace: default
+  resourceVersion: '8809175'
 spec:
   clusterIP: 10.16.5.158
   externalTrafficPolicy: Cluster
