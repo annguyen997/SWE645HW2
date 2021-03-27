@@ -4,6 +4,7 @@ metadata:
   annotations:
     cloud.google.com/neg: '{"ingress":true}'
     field.cattle.io/publicEndpoints: '[{"addresses":["35.223.119.84"],"port":80,"protocol":"TCP","serviceName":"default:survey-server","allNodes":false}]'
+    creationTimestamp: "2021-03-11T23:53:42Z"
   finalizers:
   - service.kubernetes.io/load-balancer-cleanup
   labels:
@@ -57,6 +58,8 @@ metadata:
     time: '2021-03-27T03:10:12Z' 
   name: survey-server
   namespace: default
+  selfLink: /api/v1/namespaces/default/services/survey-server
+  uid: 0d2b4cf6-0519-47b8-bd44-0f2331e2502f
   resourceVersion: '8809175'
 spec:
   clusterIP: 10.16.5.158
