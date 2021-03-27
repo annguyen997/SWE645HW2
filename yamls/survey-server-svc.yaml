@@ -4,7 +4,7 @@ metadata:
   annotations:
     cloud.google.com/neg: '{"ingress":true}'
     field.cattle.io/publicEndpoints: '[{"addresses":["35.223.119.84"],"port":80,"protocol":"TCP","serviceName":"default:survey-server","allNodes":false}]'
-    creationTimestamp: "2021-03-11T23:53:42Z"
+  creationTimestamp: "2021-03-11T23:53:42Z"
   finalizers:
   - service.kubernetes.io/load-balancer-cleanup
   labels:
