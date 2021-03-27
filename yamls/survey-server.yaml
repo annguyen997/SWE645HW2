@@ -6,7 +6,6 @@ metadata:
     field.cattle.io/publicEndpoints: '[{"addresses":["35.223.119.84"],"port":80,"protocol":"TCP","serviceName":"default:survey-server","allNodes":false}]'
     kubernetes.io/change-cause: kubectl set image deployment/survey-server swe645=risshie/642:hw2v2
       --record=true
-  creationTimestamp: "2021-03-11T23:52:05Z"
   generation: 33
   labels:
     app: survey-server
@@ -115,9 +114,6 @@ metadata:
     time: "2021-03-27T02:09:35Z"
   name: survey-server
   namespace: default
-  resourceVersion: "8784157"
-  selfLink: /apis/apps/v1/namespaces/default/deployments/survey-server
-  uid: 72f1628a-6de7-4f6a-888b-873a1c8eb5ba
 spec:
   progressDeadlineSeconds: 600
   replicas: 3
