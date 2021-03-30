@@ -23,11 +23,5 @@ pipeline {
                 }
             }
         }
-        stage('Deploying to Rancher') {
-            steps {
-                sh 'kubectl set image deployment/survey-server swe642=risshie/swe642:${LATEST_BUILD_NAME}'
-            }
-        }
-
     }
 }
