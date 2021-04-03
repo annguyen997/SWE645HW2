@@ -15,5 +15,5 @@ spec:
         app: survey-server
     spec:
       containers:
-      - image: risshie/swe642:2021-03-30-02-31-10
+      - image: risshie/swe642:2021-04-03-19-15-26
         name: survey-server
